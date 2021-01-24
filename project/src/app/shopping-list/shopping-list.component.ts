@@ -10,6 +10,10 @@ import Ingredient from '../shared/ingredient.model';
 export class ShoppingListComponent {
 	ingredients: Ingredient[] = [
 		new Ingredient('Flour', 1),
-		new Ingredient('Eggs', 12)
+		new Ingredient('Eggs', 12),
 	];
+
+	onIngredientAdded(ingredient: Ingredient) {
+		this.ingredients.push(ingredient);
+	}
 }
