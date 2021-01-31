@@ -1,0 +1,12 @@
+.btn {
+	margin-left: 2px;
+}
+
+.btn-add {
+	margin-bottom: 50px;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+	border: 1px solid red;
+}
