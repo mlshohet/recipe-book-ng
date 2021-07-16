@@ -7,8 +7,7 @@ import ShoppingListService from '../shopping-list/shopping-list.service';
 
 
 @Injectable()
-
-export default class RecipeService {
+export class RecipeService {
 
 	recipesChanged = new Subject<Recipe[]>();
 
