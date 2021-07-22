@@ -2,6 +2,18 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+    <div 
+    	style="width: 100px; height: 100px;"
+    	[@divState]="state">
+    </div>
+    <hr>
+    <div 
+    	style="width: 100px; height: 100px;"
+    	[@wildState]="wildState"
+    >
+    </div>
+    <button class="btn btn-primary" (click)="onAnimate()">Animate!</button>
+    <button class="btn btn-primary" (click)="onShrink()">Shrink!</button>
      <router-outlet></router-outlet>
     </div>
   </div>
